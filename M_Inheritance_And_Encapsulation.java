@@ -1,15 +1,19 @@
-class A {
-    public A() {
+class A 
+{
+    public A() 
+	{
         System.out.println("New A");
     }
 }
-class B extends A {
+class B extends A
+{
     public B() {
         System.out.println("New B");
     }
 }
 
-class M_Inheritance_And_Encapsulation {
+class M_Inheritance_And_Encapsulation 
+{
     public static void main(String[ ] args) {
 		/**
 		Constructors are not member methods, and so are not inherited by subclasses.
