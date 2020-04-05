@@ -19,7 +19,7 @@ for file in glob.glob("*.class"):
 	i=i+1
 	count=count+1
 file1.write("==============================\n")
-file1.write("******************************")
+file1.write("***********EOF****************")
 print("")
 flag=1
 while flag==1:
