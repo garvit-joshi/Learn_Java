@@ -1,4 +1,4 @@
-public class E_Switch
+ public class E_Switch
 {
     public static void main(String[] args)
 	{
