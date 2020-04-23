@@ -16,5 +16,5 @@ Read a float - nextFloat()
 Read a double - nextDouble()
 Read a boolean - nextBoolean()
 Read a complete line - nextLine()
-Read a word - next()
+Read a word - next().charAt(0);
 */
