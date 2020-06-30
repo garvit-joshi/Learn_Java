@@ -46,6 +46,7 @@ public class Z_Z_C_DeserializationClass
         catch(IOException ex) 
         { 
             System.out.println("IOException is caught"); 
-        }
+		}
+		cin.close();
 	}
 }
