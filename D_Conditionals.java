@@ -22,9 +22,9 @@ class D_Conditionals
 		{
 			System.out.println("Error");
 		}
-		/*
+		/******************************
 		Logical Statements two=&& , ||
-		*/
+		***************************/
 		age = 25;
         int money = 100;
         if (age > 18 || money > 500) 
