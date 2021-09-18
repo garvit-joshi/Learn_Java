@@ -11,15 +11,15 @@ An abstract class is defined using the abstract keyword.
 - Any class that contains an abstract method should be defined as abstract.
 */
 /**
-An abstract method is a method that is declared without an implementation (without braces, 
-and followed by a semicolon): 
-abstract void walk();
-*/
+ * An abstract method is a method that is declared without an implementation
+ * (without braces, and followed by a semicolon): abstract void walk();
+ */
 abstract class Animal {
-	/**
-	A class containing an abstract method is an abstract class.
-	*/
+    /**
+     * A class containing an abstract method is an abstract class.
+     */
     int legs = 0;
+
     abstract void makeSound();
 }
 
@@ -28,8 +28,8 @@ class Cat extends Animal {
         System.out.println("Meow");
     }
 }
-class Q_Abstract_Class 
-{
+
+class Q_Abstract_Class {
     public static void main(String[] args) {
         Cat c = new Cat();
         c.makeSound();
